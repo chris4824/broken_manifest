@@ -574,9 +574,9 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
-  <project path="platform_manifest" name="platform_manifest" remote="broken" revision="lp5.1" />
+  <project path="platform_manifest" name="platform_manifest" remote="broken" revision="lp5.1-rebase" />
 
-  <project path="vendor/broken" name="vendor_broken" remote="broken" revision="lp5.1" >
+  <project path="vendor/broken" name="vendor_broken" remote="broken" revision="lp5.1-rebase" >
   <copyfile src="tools/build-broken.sh" dest="build-broken.sh" />
   </project>
 
