@@ -314,7 +314,7 @@
   <project path="external/ntfs-3g" name="SlimRoms/android_external_ntfs-3g" remote="github" revision="mm6.0" />
   <project path="external/oauth" name="platform/external/oauth" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/okhttp" name="SlimRoms/android_external_okhttp" remote="github" revision="mm6.0" />
+  <project path="external/okhttp" name="TeamFahQ/android_external_okhttp" remote="github" revision="cm-13.0" />
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/openfst" name="platform/external/openfst" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/openssh" name="platform/external/openssh" groups="pdk-cw-fs,pdk-fs" />
