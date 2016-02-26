@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="manifest"
+           fetch="file:///home/chris/android/github_trackers" />
+
   <remote name="#FuckXDA"
           fetch="www.FuckXDA.com" />
 
@@ -587,5 +590,6 @@
 
   <!-- ffmpeg -->
   <project path="external/ffmpeg" name="SlimRoms/android_external_ffmpeg" remote="github" revision="mm6.0" />
+  <project name="local_manifest" path=".repo/local_manifests" remote="manifest" revision="broken" />
 
 </manifest>
