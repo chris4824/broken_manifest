@@ -590,6 +590,13 @@
 
   <!-- ffmpeg -->
   <project path="external/ffmpeg" name="SlimRoms/android_external_ffmpeg" remote="github" revision="mm6.0" />
+
+  <!-- Uber Toolchains -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-uber" name="UBERTC/arm-eabi-4.9" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-uber" name="UBERTC/arm-linux-androideabi-4.9" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" name="UBERTC/aarch64-linux-android-4.9-kernel" remote="bb" revision="master" />
+
+  <!-- Local Manifest -->
   <project name="local_manifest" path=".repo/local_manifests" remote="manifest" revision="broken" />
 
 </manifest>
