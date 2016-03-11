@@ -4,6 +4,12 @@
   <remote  name="manifest"
            fetch="file:///home/chris/android/github_trackers" />
 
+  <remote name="tipsy-unleashed"
+          fetch="https://github.com/tipsy-unleashed/" />
+
+  <remote name="broken-s4"
+          fetch="https://github.com/broken-s4/" />
+
   <remote name="#FuckXDA"
           fetch="www.FuckXDA.com" />
 
@@ -596,7 +602,8 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-uber" name="UBERTC/arm-linux-androideabi-4.9" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" name="UBERTC/aarch64-linux-android-4.9-kernel" remote="bb" revision="master" />
 
-  <!-- Local Manifest -->
+  <!-- My Add Ons -->
   <project name="local_manifest" path=".repo/local_manifests" remote="manifest" revision="broken" />
+  <project path="packages/apps/SnapdragonCamera" name="packages_apps_SnapdragonCamera" remote="broken-s4" revision="aosp-6.0-test" />
 
 </manifest>
